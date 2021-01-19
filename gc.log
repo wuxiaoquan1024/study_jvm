@@ -1,0 +1,13 @@
+OpenJDK 64-Bit Server VM (25.181-b13) for linux-amd64 JRE (1.8.0_181-8u181-b13-2~deb9u1-b13), built on Oct 22 2018 18:05:23 by "pbuilder" with gcc 6.3.0 20170516
+Memory: 4k page, physical 32730716k(22152668k free), swap 16777212k(16777212k free)
+CommandLine flags: -XX:InitialHeapSize=20971520 -XX:MaxHeapSize=20971520 -XX:MaxNewSize=5242880 -XX:MaxTenuringThreshold=15 -XX:NewSize=5242880 -XX:OldPLABSize=16 -XX:PretenureSizeThreshold=10485760 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:SurvivorRatio=8 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+0.188: [GC (Allocation Failure) 0.188: [ParNew: 3436K->394K(4608K), 0.0008695 secs] 3436K->2444K(19968K), 0.0009055 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+0.189: [GC (Allocation Failure) 0.189: [ParNew: 2691K->387K(4608K), 0.0010809 secs] 4741K->2822K(19968K), 0.0010990 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+Heap
+ par new generation   total 4608K, used 2504K [0x00000000fec00000, 0x00000000ff100000, 0x00000000ff100000)
+  eden space 4096K,  51% used [0x00000000fec00000, 0x00000000fee11488, 0x00000000ff000000)
+  from space 512K,  75% used [0x00000000ff000000, 0x00000000ff060c30, 0x00000000ff080000)
+  to   space 512K,   0% used [0x00000000ff080000, 0x00000000ff080000, 0x00000000ff100000)
+ concurrent mark-sweep generation total 15360K, used 2435K [0x00000000ff100000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 3058K, capacity 4496K, committed 4864K, reserved 1056768K
+  class space    used 331K, capacity 388K, committed 512K, reserved 1048576K
